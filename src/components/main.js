@@ -72,6 +72,10 @@ document.getElementById("to-unit").addEventListener("change", (e) => {
   convert();
 });
 
+document.getElementById("compute").addEventListener("onclick", (e) => {
+  convert();
+});
+
 updateConversionUnits("sauce");
 
 function updateConversionUnits(category) {
