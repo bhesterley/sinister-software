@@ -17,6 +17,10 @@ html {
     min-height: 100%;
 }
 
+section {
+    background: flax;
+}
+
 #background {
     position: fixed;
     width: 100%;
