@@ -72,7 +72,7 @@ document.getElementById("to-unit").addEventListener("change", (e) => {
   convert();
 });
 
-document.getElementById("compute").addEventListener("onclick", (e) => {
+document.getElementById("compute").addEventListener("click", (e) => {
   convert();
 });
 
