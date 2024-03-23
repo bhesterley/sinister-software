@@ -7,8 +7,8 @@
   /* Controls the blob blur gradient colors within the main tag's svg */
   --top-right-blur-1: #A0A6A7;
   --top-right-blur-2: #BDBABF;
-  --bttm-left-blur-1: #2F2C22;
-  --bttm-left-blur-2: #3F3D31;
+  --bttm-left-blur-1: #6F2C22;
+  --bttm-left-blur-2: #9F3D31;
 }
 
 html {
