@@ -3,7 +3,7 @@ import Layout from '../components/Layout.astro';
 ---
 
 <Layout title="Sinister Software">
-	<main>
+  <main>
     <svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>     
     <div id="content">
       <div class="header">
@@ -12,13 +12,30 @@ import Layout from '../components/Layout.astro';
           <img src="https://st.depositphotos.com/1684923/3756/v/950/depositphotos_37560453-stock-illustration-skull-welcome-banner.jpg" alt="Netlify plus Astro banner">
         </div>
         <h2>
-          Sinister Programming Conceptss
+          Sinister Programming Concepts
         </h2>
         <div class="bttns">
           <a href="https://deltacowebstore.com/collections/hot-sauce" class="bttn primary" target="_blank">Enjoy Products</a>
           <a href="https://www.youtube.com/watch?v=3qlfX854q8A" class="bttn secondary" target="_blank">Cancel</a>
         </div>
       </div>
+      <div class="flex flex-col max-w-lg mx-auto items-center justify-center m-4">
+  	<p>Sauce Computer</p>
+  	<div class="flex items-center">
+    	<div class="grid">
+        <input type="text" name="from-value" id="from-value" class="block border-2 mr-4 p-2" value="8" />
+        <select name="from-unit" id="from-unit" class="block border-2 mr-4 p-2"></select>
+      </div>
+      <div>
+        <p class="mr-4">=</p>
+      </div>
+      <div class="grid">
+        <input type="text" name="to-value" id="to-value" class="block border-2 p-2" value="1" />
+        <select name="to-unit" id="to-unit" class="block border-2 p-2"></select>
+      </div>
     </div>
-	</main>
+    <div>
+      <button type="button" onclick="convert();">Compute</p>
+    </div>
+  </main>
 </Layout>
