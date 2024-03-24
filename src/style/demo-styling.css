@@ -94,6 +94,7 @@ section {
   width: 150px;
   margin: 0 1%;
   text-decoration: none;
+  pointer-events: auto;
 }
 
 .bttn.primary{
