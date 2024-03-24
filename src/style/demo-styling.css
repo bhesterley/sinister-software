@@ -16,6 +16,7 @@ html {
     background: dimgray !important;
     font-family: var(--main-family);
     min-height: 100%;
+    color: white;
 }
 
 section {
