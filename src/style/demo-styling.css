@@ -54,6 +54,10 @@ section {
   z-index: 1;
 }
 
+.click {
+  pointer-events: auto;
+}
+
 .header{
     text-align: center;
     position: relative;
