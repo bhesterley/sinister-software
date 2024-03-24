@@ -41,12 +41,14 @@ section {
   left: 0;
   right: 0;
   position: absolute;
+  z-index: 1;
 }
 
 #canvas {
   top: 0;
   left: 0;
   position: absolute;
+  z-index: 99;
 }
 
 .header{
