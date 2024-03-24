@@ -6,7 +6,7 @@
   function init () {
     cvs = document.getElementById("canvas");
     ctx = cvs.getContext("2d");
-    cvs.width = window.innerWidth;
+    cvs.width = document.clientWidth;
     cvs.height = window.innerHeight;
     var fire = new Flare();
     fire.update({x:cvs.width/5,y:cvs.height/5});
