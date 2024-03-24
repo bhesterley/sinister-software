@@ -28,7 +28,6 @@
       var dist = 1 - 
         Math.sqrt(Math.pow((obj.x-cvs.width/2),2)+Math.pow((obj.y-cvs.height/2),2)) /
         Math.sqrt(Math.pow((cvs.width/2),2)+Math.pow((cvs.height/2),2));
-        console.log(dist);
 
       for (var i = 0; i < this.discs.length; i++) {
         ctx.beginPath();
