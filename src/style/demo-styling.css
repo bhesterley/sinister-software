@@ -43,14 +43,14 @@ section {
   left: 0;
   right: 0;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 
 #canvas {
   top: 0;
   left: 0;
   position: absolute;
-  z-index: 99;
+  z-index: 1;
   pointer-events: none;
 }
 
