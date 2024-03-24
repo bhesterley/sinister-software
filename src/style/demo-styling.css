@@ -51,7 +51,6 @@ section {
   left: 0;
   position: absolute;
   z-index: 1;
-  pointer-events: none;
 }
 
 .header{
