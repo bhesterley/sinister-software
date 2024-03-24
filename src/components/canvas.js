@@ -4,6 +4,7 @@
   var cvs,ctx,mousePos;
   
   function init () {
+    alert('init!');
     cvs = document.getElementById("canvas");
     ctx = cvs.getContext("2d");
     cvs.width = window.innerWidth;
