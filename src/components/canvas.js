@@ -127,6 +127,10 @@
       y: evt.clientY - rect.top
     };
   }
+
+  window.onscroll = function(e) {
+    init();
+  }
   
   document.addEventListener('DOMContentLoaded',init,false);
 })();
