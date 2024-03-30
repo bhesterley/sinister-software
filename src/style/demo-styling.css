@@ -14,6 +14,7 @@
 
 html {
     background: dimgray !important;
+    background-image: url('https://d3kjluh73b9h9o.cloudfront.net/original/4X/d/0/7/d072dd1f11d88b75e2fe613bf78e8b8ad963aaca.gif');
     font-family: var(--main-family);
     min-height: 100%;
     color: white;
