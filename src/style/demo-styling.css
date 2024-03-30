@@ -19,6 +19,10 @@ html {
     color: white;
 }
 
+body {
+    background-image: url('https://d3kjluh73b9h9o.cloudfront.net/original/4X/d/0/7/d072dd1f11d88b75e2fe613bf78e8b8ad963aaca.gif');
+}
+
 section {
     border: 1px solid black;
     background: lightyellow;
@@ -34,7 +38,6 @@ section {
 }
 
 #content {
-  background-image: url('https://d3kjluh73b9h9o.cloudfront.net/original/4X/d/0/7/d072dd1f11d88b75e2fe613bf78e8b8ad963aaca.gif');
   display: flex;
   flex-direction: column;
   align-items: center;
