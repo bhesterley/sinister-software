@@ -8,13 +8,14 @@ import Layout from '../components/Layout.astro';
     <canvas id="canvas"></canvas>
     <div id="content">
       <div class="header">
+        <h1 style="display:none">Quickstart Template</h1>
         <div class="logo">
-          <img src="https://st.depositphotos.com/1684923/3756/v/950/depositphotos_37560453-stock-illustration-skull-welcome-banner.jpg" style="padding-top:0">
+          <img src="https://st.depositphotos.com/1684923/3756/v/950/depositphotos_37560453-stock-illustration-skull-welcome-banner.jpg" alt="Netlify plus Astro banner" style="padding-top:0">
         </div>
         <h2>
           Sinister Programming Concepts
         </h2>
-        <div class="bttns" style="position: relative; z-index:100">
+        <div class="bttns">
           <a href="https://deltacowebstore.com/collections/hot-sauce" class="bttn primary" target="_blank">Enjoy Products</a>
           <a href="https://www.youtube.com/watch?v=3qlfX854q8A" class="bttn secondary" target="_blank">Cancel</a>
         </div>
@@ -42,19 +43,19 @@ import Layout from '../components/Layout.astro';
       <div class="flex flex-col max-w-lg mx-auto items-center justify-center m-4">
   	<h2 style="margin-bottom: 15px">Sauce Computer</h2>
   	<div class="flex items-center">
-    	<div class="grid click">
+    	<div class="grid">
         <input type="text" name="from-value" id="from-value" class="block border-2 mr-4 p-2" value="8" />
         <select name="from-unit" id="from-unit" class="block border-2 mr-4 p-2"></select>
       </div>
       <div>
         <p class="mr-4">=</p>
       </div>
-      <div class="grid click">
+      <div class="grid">
         <input type="text" name="to-value" id="to-value" class="block border-2 p-2" value="1" />
         <select name="to-unit" id="to-unit" class="block border-2 p-2"></select>
       </div>
     </div>
-    <div class="click">
+    <div>
       <button type="button" id="compute" style="margin-top:15px;background:red;color:white;padding:10px">Compute</p>
     </div>
   </main>
