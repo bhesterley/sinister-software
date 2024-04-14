@@ -4,9 +4,3 @@
   functions = "netlify/functions"
   publish = "dist"
 
-
-  [plugins.inputs.postBuild]
-    enable = true
-  
-  [plugin.inputs]
-    enable = false
